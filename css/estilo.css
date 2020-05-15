@@ -61,11 +61,11 @@ ul li a {
 
 
 .section{
-			height: 50vh;
-			background-image: url(../imagens/tamele.jpg);
-			background-attachment: fixed;
-			background-size: cover;
-		}
+	height: 50vh;
+	background-image: url('../imagens/tamele.jpg');
+	background-attachment: fixed;
+	background-size: cover;
+	}
 
 header{
 	height: 25px;
