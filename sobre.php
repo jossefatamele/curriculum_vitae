@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Curriculum Vitae</title>
+		<link rel="stylesheet" type="text/css" href="css/fonts/css/all.css">
+		<link rel="stylesheet" type="text/css" href="css/estilo.css">
+	</head>
+	<body>
+			
+		<div id="interface">
+			<header>
+				<marquee direction="left" scrollamount="2" width="100%" style="color: #32c95d; font-size: 20px; font-weight: bold;">
+	                Programação Web 2020 - Universidade Eduardo Mondlane (DMI)
+	            </marquee>
+            </header>
+			<nav>
+				<div class="menu">
+					<i class="fa fa-bars men" aria-hidden="true"></i>
+				</div>
+				<ul>
+					<li><a href="index.html">Inicio</a></li>
+					<li><a href="sobre.html">Mais Detalhes</a></li>
+					<li><a href="contact.html">Contacto</a></li>
+				</ul>
+
+			</nav>
+			<br/>
+			<br/>
+			<div class="proficional">
+				<h3>Formação Profissional</h3>
+				<form>
+					<fieldset>
+						<legend>Licenciatura em Informática</legend>
+						<table>
+							<tr>
+								<th colspan="3" style="background: #cccccc;">
+										<p>
+											Actualmente Frequentando o Ensino Superior, Fazedor do curso de Informática Ministrado pela Universidade Eduardo Mondlane
+										</p>
+								</th>
+							</tr>
+							<tbody>
+								<tr>
+									<td rowspan="4">
+									<p>Domínio das Linguagens de Programação</p>
+									</td>
+									<td colspan="2" style="text-align: center; font-weight: bold;">Comparação</td>
+								</tr>
+								<tr>
+									<td style="font-weight: bold;">JAVA</td>
+									<td><div class="principal"><div id="interna"><h6 style="font-style: italic;">90%</h6></div></div></td>
+								</tr>
+								<tr>
+									<td style="font-weight: bold;">PHP</td>
+									<td><div class="principal"><div id="interna1"><h6 style="font-style: italic;">70%</h6></div></div></td>
+								</tr>
+								<tr>
+									<td style="font-weight: bold;">JAVASCRIPT</td>
+									<td><div class="principal"><div id="interna2"><h6 style="font-style: italic;">60%</h6></div></div></td>
+								</tr>
+								<tr>
+									<td rowspan="4">
+									<p>Familiarizado Com Framework's</p>
+									<td colspan="2" style="text-align: center; font-weight: bold;">Descrição</td>
+									</td>
+									<tr>
+									<td style="font-weight: bold;">Bootstrap</td>
+									<td><a href="https//getbootstrap.com" target="_blank">Mais detalhes</a></td>
+								</tr>
+								<tr>
+									<td style="font-weight: bold;">Angular</td>
+									<td><a href="https//angular.io" target="_blank">Mais detalhes</a></td>
+								</tr>
+								<tr>
+									<td style="font-weight: bold;">Laravel</td>
+									<td><a href="https//laravel.com" target="_blank">Mais detalhes</a></td>
+								</tr>
+								</tr>
+
+							</tbody>
+						</table>
+					</fieldset>
+
+				</form>
+			</div>
+			<br/>
+			<br/>
+			<div class="section box">
+					<h1>Jossefa Joaquim Tamele</h1>
+			</div>
+			
+			
+			<footer id="rodape">
+				<p style="color: #fff; padding-top: 50px;">Copyright &copy; 2020 - by Jossefa Tamele <br/><br/><a href="http://Facebook.com/jossefajoaquimtamele" target="_blank"><i class="fab fa-facebook-f"></i></a> | <a href="http://twitter.exemplo" target="_blank"><i class="fab fa-twitter"></i></a> </p>
+				
+		
+			</footer>
+		</div>
+	</body>
+	<script src="js/jquery-3.2.0.min.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$('.men').click(function(){
+				$('ul').toggleClass('activo');
+			})
+		})
+		
+	</script>
+</html>

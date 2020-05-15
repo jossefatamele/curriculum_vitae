@@ -1,0 +1,231 @@
+@charset "UTF-8";
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	background: url('../imagens/fundo.jpg');
+	background-size: 100%;
+
+}
+
+nav{
+	width: 100%;
+	background: #00316b; 
+}
+
+ul{
+	width: 80%;
+	margin: 0 auto;
+	padding: 0;
+}
+
+ul li{
+	list-style: none;
+	display: inline-block;
+	padding: 20px;
+}
+
+ul li:hover{
+	background: #cccccc;
+	border-bottom: 2px solid red;
+	cursor: pointer;
+}
+
+ul li a {
+	color: #fff;
+	text-decoration: none;
+	font-family: "Arial";
+}
+
+.menu{
+	width: 100%;
+	padding: 10px 20px;
+	background: #001f44;
+	text-align: right;
+	box-sizing: border-box;
+	color: #fff;
+	font-size: 30px;
+	display: none;
+}
+
+.box{
+	width: 100%;
+	height: 600px;
+	color: #9f1010;
+	font-family: sans-serif;
+	text-align: center;
+	}
+
+
+.section{
+			height: 50vh;
+			background-image: url(../imagens/tamele.jpg);
+			background-attachment: fixed;
+			background-size: cover;
+		}
+
+header{
+	height: 25px;
+
+}
+
+nav{
+	position: sticky;
+	top: 0;
+}
+
+
+@media (max-width: 768px){
+	.menu{
+		display: block;
+	}
+
+	ul{
+	width: 100%;
+	display: none;
+	}
+
+	ul li{
+	display: block;
+	text-align: center;
+	}
+
+	.activo{
+	display: block;
+	}
+
+}
+
+@media (max-width: 1200px){
+	.tabela{
+		display: block;
+		width: 100%;
+	}
+
+	.tabela thead, .tabela th, .tabela td, .tabela tr{
+		display: block;
+	}
+}
+
+
+#interface{
+	width: 90%;
+	background-color: #ffffff;
+	margin: 0 auto;
+	box-shadow: 0px 0px 10px rgba(0,0,0,.5);
+}
+
+#conteudo{
+	width: 100%;
+	display: block;
+}
+
+
+
+#dados{
+	width: 95%;
+	align-items: center;
+	padding: 10px;
+
+}
+
+.habilitacao{
+	width: 95%;
+	padding: 10px;
+}
+
+.proficional{
+	width: 95%;
+	padding: 10px;	
+}
+
+
+
+fieldset{
+	border-radius: 10px;
+	}
+
+legend{
+	font-style: italic;
+	font-family: arial, sans-serif;
+
+}
+
+h3{
+	text-transform: uppercase;
+	text-align: center;
+	color: #ff0000;
+	font-style: italic;
+	font-family: arial, sans-serif;
+}
+
+td{
+	padding: 15px;
+}
+
+input{
+	padding: 10px;
+	text-transform: uppercase;
+	font-style: italic;
+	font-family: arial, sans-serif;
+}
+
+p{
+	font-size: 20px;
+	font-style: italic;
+	font-family: "Arial";
+}
+
+.principal{
+	border-radius: 30px;
+	padding: 2px;
+	width: 100px;
+  	border: 1px solid black;
+
+}
+
+#interna{
+	border-radius: 30px;
+	height: 10px;
+	background: #0aac37;
+	width: 80%;
+  	border: 1px solid black;
+  	align-items: center;
+}
+
+#interna1{
+	border-radius: 30px;
+	height: 10px;
+	background: #0b822c;
+	width: 70%;
+  	border: 1px solid black;`
+}
+
+#interna2{
+	border-radius: 30px;
+	height: 10px;
+	background: #ff1e1e;
+	width: 60%;
+  	border: 1px solid black;`
+}
+
+
+
+#rodape {
+	clear: both;
+	height: 150px;
+	background: #121011;
+	border-top: 1px solid #606060;
+}
+
+.fab{
+	font-size: 50px;
+}
+
+#rodape p{
+	text-align: center;
+}
+
